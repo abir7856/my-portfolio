@@ -6,6 +6,10 @@
   font-family: Azeret Mono;
 }
 
+.container {
+  margin: 0 auto;
+}
+
 header > nav {
   width: 78%;
   display: flex;
@@ -217,4 +221,77 @@ header > h2 {
   box-sizing: border-box;
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
+}
+
+/* My Current Target */
+.my-current-target {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 78%;
+}
+.my-current-target > h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.my-current-target > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.targets {
+  padding: 40px;
+  display: flex;
+  gap: 32px;
+}
+.skills {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  border-radius: 16px;
+}
+.skills1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.skills2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.skills3 {
+  background: rgba(255, 223, 0, 0.05);
+}
+.skills > a {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+}
+.skills h4 {
+  color: rgb(13, 19, 33);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.skills p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
 }
