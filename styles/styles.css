@@ -8,6 +8,7 @@
 
 .container {
   margin: 0 auto;
+  width: 78%;
 }
 
 header > nav {
@@ -31,7 +32,7 @@ header > h2 {
   box-sizing: border-box;
   border: 1px solid rgb(13, 19, 33);
   border-radius: 8px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   color: rgb(13, 19, 33);
   font-size: 20px;
   font-weight: 600;
@@ -294,4 +295,63 @@ header > h2 {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
+}
+
+/* I Need Support Section */
+
+#i-need-support {
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/handshake.jpg");
+  border-radius: 16px;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 64px;
+  margin-bottom: 80px;
+}
+#i-need-support h3 {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+#i-need-support p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  width: 60%;
+  margin: 0 auto;
+}
+.submit {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.submit input {
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 548px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
 }
