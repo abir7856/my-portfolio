@@ -40,6 +40,7 @@ header > h2 {
   letter-spacing: 0%;
   text-align: center;
   background-color: white;
+  cursor: pointer;
 }
 
 .btn2 {
@@ -54,6 +55,7 @@ header > h2 {
   letter-spacing: 0%;
   text-align: center;
   background: rgb(13, 19, 33);
+  cursor: pointer;
 }
 
 .banner {
@@ -89,6 +91,7 @@ header > h2 {
   letter-spacing: 0%;
   text-align: center;
   width: 90%;
+  opacity: 0.7;
 }
 
 /* Why Web Development Section  */
@@ -98,6 +101,7 @@ header > h2 {
   margin: 0 auto;
   padding: 80px;
   margin-top: 78px;
+  border-radius: 16px;
 }
 .why-web-development {
   width: 80%;
@@ -122,6 +126,7 @@ header > h2 {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
+  opacity: 0.7;
 }
 
 .my-task1,
@@ -211,6 +216,7 @@ header > h2 {
   text-align: center;
   margin: 0 auto;
   width: 852px;
+  opacity: 0.7;
 }
 .video-container {
   margin: 42px auto;
@@ -248,6 +254,7 @@ header > h2 {
   text-align: center;
   width: 60%;
   margin: 0 auto;
+  opacity: 0.7;
 }
 .targets {
   padding: 40px;
@@ -295,6 +302,7 @@ header > h2 {
   line-height: 26px;
   letter-spacing: 0%;
   text-align: left;
+  opacity: 0.7;
 }
 
 /* I Need Support Section */
@@ -354,4 +362,24 @@ header > h2 {
   font-weight: 400;
   line-height: 19px;
   letter-spacing: 0%;
+}
+
+/* Footer Section  */
+footer {
+  border-radius: 16px;
+
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social ul {
+  display: flex;
+  gap: 24px;
+}
+.social > ul li {
+  list-style: none;
 }
