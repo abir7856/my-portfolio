@@ -177,3 +177,44 @@ header > h2 {
   background: none;
 }
 /* My Inspiration section */
+#my-inspiration-container {
+  width: 78%;
+  margin: 90px auto;
+  /* text-align: center; */
+}
+
+.my-inspiration {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.my-inspiration > h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.my-inspiration > p {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 auto;
+  width: 852px;
+}
+.video-container {
+  margin: 42px auto;
+}
+.video-container iframe {
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
